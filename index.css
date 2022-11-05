@@ -163,11 +163,45 @@ color: #6E757E;
 .popular{
     position: relative;
 }
-.popular img{
+.popular>img{
     position: absolute;
     z-index: 0;
 }
-.popular .popular-content{
+.popular #popular-content{
+   
     position: absolute;
     right: 0;
+     z-index: 99;
+   
+}
+#products{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.product-item h3{
+    font-weight: bold;
+    font-size: 20px;
+    color: #07484A;
+}
+.product-item{
+    border-radius: 16px;
+    padding: 40px;
+    width: 300px;
+    
+}
+.product-item:hover{
+    transform: translateY(-60px);
+}
+.product-1{
+    background-color: #CAF3E5;
+}
+.product-2{
+    background-color: #CAF3E5;
+}
+.product-3{
+    background-color: #CAF3E5;
+}
+.product-4{
+    background-color: #CAF3E5;
 }
