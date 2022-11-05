@@ -192,6 +192,7 @@ color: #6E757E;
 }
 .product-item:hover{
     transform: translateY(-60px);
+    cursor: pointer;
 }
 .product-1{
     background-color: #CAF3E5;
@@ -204,4 +205,13 @@ color: #6E757E;
 }
 .product-4{
     background-color: #CAF3E5;
+}
+
+.all-cat{
+    border: none;
+    background-color: #07484A;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: white;
 }
