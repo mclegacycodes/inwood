@@ -2,6 +2,8 @@
     height: 100vh;
 background-image: url(images/homeimage.png);
 background-size: cover;
+box-sizing: border-box;
+border-radius: 0px 0px 60px 60px;
 }
 nav{
     display: flex;
@@ -13,4 +15,43 @@ ul{
 }
 #hero ul li{
 list-style: none;
+}
+#hero a{
+    text-decoration: none;
+    color: #07484A;
+}
+
+#hero a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+#hero a:active{
+    text-decoration: underline;
+     font-weight: 700;
+    
+}
+.cta-wrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#cta h1{
+    color: #07484A;
+    font-weight: bolder;
+    font-size: 64px;
+
+}
+#cta p{
+    font-size:24px;
+    color: #07484A;
+}
+#cta button{
+    font-size: 16px;
+    /* border: 1 px solid #07484A; */
+    /* padding: 12px ; */
+    background-color: #07484A;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: white;
 }
