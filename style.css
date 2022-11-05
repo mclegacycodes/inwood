@@ -101,7 +101,35 @@ footer{
   align-items: center;
   justify-content: center;
 }
+.middle {
+  align-items: center;
+  background-color: #e0eff6;
+  padding: 40px;
+  margin: 0;
 
+}
+
+.image-bg {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 170px;
+  padding: 10px;
+  text-align: center;
+}
+.txt{
+  font-size: 10px;
+}
+.images img {
+  padding: 5px;
+  width: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.middle h2 {
+  text-align: center;
+
+}
 @media screen and (max-width:960px) {
   .footer-container{
     max-width: 600px;

@@ -11,7 +11,7 @@ nav{
 }
 ul{
     display: flex;
-    gap: 60px;
+    gap: 40px;
 }
 #hero ul li{
 list-style: none;
@@ -103,6 +103,18 @@ color: #6E757E;
     margin-bottom: 30px;
     border-radius: 10px;
      background-size: cover;
+}
+.category button{
+    display: none;
+}
+.category:hover button{
+    display: flex;
+}
+.category p{
+    display: none;
+}
+.category:hover p{
+    display: flex;
 }
 .cat-1{
     background-image: url(images/img1.jpg);
