@@ -117,27 +117,27 @@ color: #6E757E;
     display: flex;
 }
 .cat-1{
-    background-image: url(images/img1.jpg);
+    background-image: url(images/bedroom.jpeg);
     background-size: cover;
 }
 .cat-2{
-    background-image: url(images/img2.jpg);
+    background-image: url(images/dinning.jpeg);
     background-size: cover;
 }
 .cat-3{
-    background-image: url(images/img1.jpg);
+    background-image: url(images/meeting.png);
     background-size: cover;
 }
 .cat-4{
-    background-image: url(images/img2.jpg);
+    background-image: url(images/work.jpeg);
     background-size: cover;
 }
 .cat-5{
-    background-image: url(images/img1.jpg);
+    background-image: url(images/kitchen.png);
     background-size: cover;
 }
 .cat-6{
-    background-image: url(images/img2.jpg);
+    background-image: url(images/living.jpeg);
     background-size: cover;
 }
 
