@@ -127,7 +127,7 @@ footer{
 }
 
 .middle h2 {
-  text-align: center;
+  text-align:center;
 
 }
 @media screen and (max-width:960px) {

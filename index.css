@@ -160,3 +160,14 @@ color: #6E757E;
     padding: 12px 24px;
     border-radius: 8px;
 }
+.popular{
+    position: relative;
+}
+.popular img{
+    position: absolute;
+    z-index: 0;
+}
+.popular .popular-content{
+    position: absolute;
+    right: 0;
+}
