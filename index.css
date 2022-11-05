@@ -1,0 +1,16 @@
+#hero{
+    height: 100vh;
+background-image: url(images/homeimage.png);
+background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 60px;
+}
+#hero ul li{
+list-style: none;
+}
